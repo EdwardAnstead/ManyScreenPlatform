@@ -1,0 +1,36 @@
+<div id="taggingTemplateView" class="row">
+<p class='infoPara'>Tag Your favourite runners using the buttons below, when you see them on the TV.</p>
+<div id="knownRunners" class="col-sm-6">
+<%for(var i in runners)
+{%>
+	<button type="button" class="btn runnerTagButton" id="<%=runners[i].raceNo%>_TagButton"> <%=runners[i].name%></button>
+
+<%}%>
+</div>
+<div id="numberPad" class="col-sm-6">
+<div id="inputNumber"></div>
+<div id="firstRowNumberPad" class="row">
+		<button type="button" class="digitTagButton digitTagButtonTopRow digitTagButtonLeft" id="1_tagButton">1</button>
+		<button type="button" class="digitTagButton digitTagButtonTopRow digitTagButtonMiddle" id="2_tagButton">2</button>
+		<button type="button" class="digitTagButton digitTagButtonTopRow digitTagButtonRight" id="3_tagButton">3</button>
+</div>
+<div id="secondRowNumberPad" class="row">
+		<button type="button" class="digitTagButton digitTagButtonMiddleRow digitTagButtonLeft" id="4_tagButton">4</button>
+		<button type="button" class="digitTagButton digitTagButtonMiddleRow digitTagButtonMiddle" id="5_tagButton">5</button>
+		<button type="button" class="digitTagButton digitTagButtonMiddleRow digitTagButtonRight" id="6_tagButton">6</button>
+</div>
+<div id="thirdRowNumberPad" class="row">
+		<button type="button" class="digitTagButton digitTagButtonBottomRow digitTagButtonLeft" id="7_tagButton">7</button>
+		<button type="button" class="digitTagButton digitTagButtonBottomRow digitTagButtonMiddle" id="8_tagButton">8</button>
+		<button type="button" class="digitTagButton digitTagButtonBottomRow digitTagButtonRight" id="9_tagButton">9</button>
+</div>
+<div id="fourthRowNumberPad" class="row">
+		<button type="button" class="digitTagButton zeroRow" id="0_tagButton">0</button>
+		<button type="button" class="" id="clear_tagButton">&lt;-</button>
+</div>
+
+		<button type="button" class="btn" id="okTagButton">OK</button>
+
+
+</div>
+</div>

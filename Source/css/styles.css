@@ -1,0 +1,94 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.channelListContainer {
+    width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.col2Width{
+	float: left;
+	max-width: 200px;
+	margin-left: 7px;
+	margin-right:7px;
+	display:inline-block;
+}
+
+#bigDivModal{
+	max-height: 400px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+#titleBar{
+	background-color: black;
+	color: white;
+}
+
+#titleBar h3{
+	margin: 5px 0px 5px 0px;
+}
+
+.media-object{
+	width: 70px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.startHidden{
+	display:none;
+
+}
+
+.TICPlayerContainer{
+	display: block;
+	min-height: 600px;
+}
+
+
+
+.meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #333;
+}
+
+.meter > .liveProgressMeter {
+	display: block;
+	height: 20px;
+	background-color: red;
+	position: absolute;
+	overflow: hidden;
+}
+
+.meter > .playheadProgressMeter{
+	display: block;
+	height: 20px;
+	background-color: blue;
+	position: absolute;
+	overflow: hidden;	
+
+	
+}
+

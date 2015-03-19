@@ -1,0 +1,49 @@
+<h2> Men's half marathon race results </h2>
+
+<table>
+<tr><td>GunPos</td><td>RaceNo</td><td>Name</td><td>Gender</td><td>Club/Country</td><td>GunTime</td><td>ChipTime</td></tr>
+<tr><td>1</td><td>36</td><td>Aaron Scott</td><td>M</td><td>NOTTS AC</td><td>01:06:54</td><td>1</td><td>01:06:54</td></tr>
+<tr><td>2</td><td>11</td><td>Alastair Watson</td><td>M</td><td>NOTTS AC</td><td>01:06:58</td><td>2</td><td>01:06:58</td></tr>
+<tr><td>3</td><td>28</td><td>Darren Deed</td><td>M</td><td></td><td>01:07:16</td><td>3</td><td>01:07:16</td></tr>
+<tr><td>4</td><td>197</td><td>Andrew Maud</td><td>M</td><td>CLAPHAM CHASERS</td><td>01:07:37</td><td>4</td><td>01:07:36</td></tr>
+<tr><td>5</td><td>6</td><td>Tom Payn</td><td>M</td><td>RUN FAST</td><td>01:07:48</td><td>5</td><td>01:07:45</td></tr>
+<tr><td>6</td><td>200</td><td>James Mee</td><td>M</td><td>HEANOR RC</td><td>01:08:37</td><td>6</td><td>01:08:37</td></tr>
+<tr><td>7</td><td>32</td><td>Dave Norman</td><td>M</td><td>ALTRINCHAM AC</td><td>01:09:09</td><td>8</td><td>01:09:06</td></tr>
+<tr><td>8</td><td>26</td><td>Dale Annable</td><td>M</td><td>HEANOR RC</td><td>01:09:09</td><td>7</td><td>01:09:05</td></tr>
+<tr><td>9</td><td>16</td><td>Mark Jenkin</td><td>M</td><td>BIDEFORD</td><td>01:09:16</td><td>9</td><td>01:09:13</td></tr>
+<tr><td>10</td><td>12</td><td>Iain Quinn</td><td>M</td><td>BARROW & FURNESS STRIDERS AC</td><td>01:09:26</td><td>10</td><td>01:09:24</td></tr>
+<tr><td>11</td><td>15</td><td>Andrew Challenger</td><td>M</td><td>HALLAMSHIRE HARRIERS</td><td>01:09:37</td><td>11</td><td>01:09:33</td></tr>
+<tr><td>12</td><td>14</td><td>Matt Adcock</td><td>M</td><td>HERMITAGE HARRIERS</td><td>01:10:46</td><td>12</td><td>01:10:44</td></tr>
+<tr><td>13</td><td>175</td><td>Rob Keal</td><td>M</td><td>NOTTS AC</td><td>01:11:00</td><td>13</td><td>01:11:00</td></tr>
+<tr><td>14</td><td>9</td><td>Dan Allinson</td><td>M</td><td>LEICESTER CORITANIANS</td><td>01:11:19</td><td>14</td><td>01:11:16</td></tr>
+<tr><td>15</td><td>160</td><td>Tim Carter</td><td>M</td><td>BRAT</td><td>01:11:54</td><td>15</td><td>01:11:53</td></tr>
+<tr><td>16</td><td>174</td><td>Ian Gooding</td><td>M</td><td>BIDEFORD</td><td>01:12:14</td><td>16</td><td>01:12:12</td></tr>
+<tr><td>17</td><td>118</td><td>Daniel Robinson</td><td>M</td><td>BRAT</td><td>01:12:18</td><td>17</td><td>01:12:18</td></tr>
+<tr><td>18</td><td>105</td><td>John Wadelin</td><td>M</td><td>EREWASH VALLEY RC</td><td>01:12:23</td><td>18</td><td>01:12:23</td></tr>
+<tr><td>19</td><td>171</td><td>Tom Cammack</td><td>M</td><td>SPRINGFIELD STRIDERS</td><td>01:12:27</td><td>19</td><td>01:12:25</td></tr>
+<tr><td>20</td><td>17</td><td>Ben Beattie</td><td>M</td><td>HALLAMSHIRE HARRIERS</td><td>01:12:45</td><td>20</td><td>01:12:44</td></tr>
+<tr><td>21</td><td>76</td><td>Patrick Roddy</td><td>M</td><td>KENILWORTH RUNNERS</td><td>01:12:55</td><td>21</td><td>01:12:52</td></tr>
+<tr><td>22</td><td>126</td><td>Matthew Sharp</td><td>M</td><td>HERCULES WIMBLEDON AC</td><td>01:12:57</td><td>22</td><td>01:12:57</td></tr>
+<tr><td>23</td><td>201</td><td>Stephen Broadbent</td><td>M</td><td>BINGLEY HARRIERS</td><td>01:14:02</td><td>24</td><td>01:13:59</td></tr>
+<tr><td>24</td><td>30</td><td>Nathan Vengdasalam</td><td>M</td><td></td><td>01:14:19</td><td>25</td><td>01:14:18</td></tr>
+<tr><td>25</td><td>184</td><td>Matthew Poynton</td><td>M</td><td>LEICESTER CORITANIANS</td><td>01:14:26</td><td>23</td><td>01:13:24</td></tr>
+<tr><td>26</td><td>269</td><td>Matthew Nutt</td><td>M</td><td>WIMBLEDON WINDMILERS</td><td>01:14:40</td><td>26</td><td>01:14:38</td></tr>
+<tr><td>27</td><td>94</td><td>Jeff Prest</td><td>M</td><td>TRAFFORD AC</td><td>01:14:45</td><td>27</td><td>01:14:45</td></tr>
+<tr><td>28</td><td>100</td><td>Ludovic Renou</td><td>M</td><td>ROADHOGGS AC</td><td>01:14:50</td><td>28</td><td>01:14:48</td></tr>
+<tr><td>29</td><td>257</td><td>Matthew Stratford</td><td>M</td><td>REDHILL ROAD RUNNERS</td><td>01:14:50</td><td>29</td><td>01:14:50</td></tr>
+<tr><td>30</td><td>181</td><td>Chris Jordan</td><td>M</td><td>HINCKLEY RUNNING CLUB</td><td>01:15:05</td><td>30</td><td>01:15:05</td></tr>
+<tr><td>31</td><td>156</td><td>Carl Egdell</td><td>M</td><td>HALLAMSHIRE HARRIERS</td><td>01:15:22</td><td>31</td><td>01:15:22</td></tr>
+<tr><td>32</td><td>109</td><td>Richard Robinson</td><td>M</td><td>SUTTON IN ASHFIELD HARRIERS</td><td>01:15:55</td><td>32</td><td>01:15:51</td></tr>
+<tr><td>33</td><td>19</td><td>Pol Wanjiku</td><td>M</td><td>RUN FAST</td><td>01:16:10</td><td>33</td><td>01:16:10</td></tr>
+<tr><td>34</td><td>131</td><td>Arron Larkin</td><td>M</td><td></td><td>01:16:58</td><td>35</td><td>01:16:57</td></tr>
+<tr><td>35</td><td>239</td><td>Chris Kilburn</td><td>M</td><td></td><td>01:17:01</td><td>36</td><td>01:16:58</td></tr>
+<tr><td>36</td><td>82</td><td>Stuart Farmer</td><td>M</td><td>SERPENTINE RC</td><td>01:17:03</td><td>37</td><td>01:17:01</td></tr>
+<tr><td>37</td><td>170</td><td>Colin Davenport</td><td>M</td><td>MATLOCK ATHLETIC CLUB</td><td>01:17:07</td><td>39</td><td>01:17:07</td></tr>
+<tr><td>38</td><td>229</td><td>Matthew Kingston-Lee</td><td>M</td><td>KENILWORTH RUNNERS</td><td>01:17:12</td><td>40</td><td>01:17:12</td></tr>
+<tr><td>39</td><td>262</td><td>Ben O'Connell</td><td>M</td><td>BELPER HARRIERS</td><td>01:17:24</td><td>41</td><td>01:17:18</td></tr>
+<tr><td>40</td><td>77</td><td>Anthony Batty</td><td>M</td><td>LONG EATON RC</td><td>01:17:38</td><td>42</td><td>01:17:35</td></tr>
+</table>
+
+
+					
+					

@@ -1,0 +1,28 @@
+<% if(type == "video") { %>
+<div  >
+  <label class="radio-inline">
+	<input id="tabletRadioButton" type = "radio" name="playbackOptions" value='optionTablet' checked > watch on the Tablet
+  </label>
+   <label class="radio-inline">
+    <input id="tvRadioButton" type = "radio" name="playbackOptions" value='optionTv'>  Watch on the TV
+  </label>
+   <label class="radio-inline">
+    <input id="playlistRadioButton" type = "radio" name="playbackOptions" value='optionPlaylist'>  Add to playlist
+  </label>
+
+</div>
+
+<button type="button" class="btn feedOptionsModalButton" id="startButton">Start</button>
+<% if(available == "live") {%>
+	<button type="button" class="btn feedOptionsModalButton" id="liveButton">Live</button>
+<% }%>
+
+<% if(progress != 0) {%>
+<button type="button" class="btn feedOptionsModalButton" id="resumeButton">Resume</button>
+<%}%>
+<%}%>
+
+<%if(type=="TIC"){ %>
+<button type="button" class='btn feedOptionsModalButton' id='okButton'>Ok</button>
+<%}%>
+

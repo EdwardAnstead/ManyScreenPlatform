@@ -1,0 +1,27 @@
+<div class="row">
+<h2>App Model </h2>
+<%for(var i =0; i <appModel.length; ++i){%>
+<div class="channel col-sm-3">
+<h3><%=appModel[i].channelId%></h3>
+<%for(var i1 = 0; i1 <appModel[i].feeds.length; ++i1){%>
+<p> feed: <%=appModel[i].feeds[i1].feedId%> state: <%=appModel[i].feeds[i1].state%> progress: <%=appModel[i].feeds[i1].progress%> LiveTime: <%=appModel[i].feeds[i1].liveTime%></p>
+
+<%}%>
+</div>
+
+<%}%>
+</div>
+
+<div class="row">
+<h2>TV Model </h2>
+<%for(var i =0; i <tvModel.length; ++i){%>
+<div class="channel col-sm-3">
+<h3><%=tvModel[i].channelId%></h3>
+<%for(var i1 = 0; i1 <tvModel[i].feeds.length; ++i1){%>
+<p> feed: <%=tvModel[i].feeds[i1].feedId%> state: <%=tvModel[i].feeds[i1].state%> progress: <%=tvModel[i].feeds[i1].progress%>
+LiveTime: <%=tvModel[i].feeds[i1].liveTime%></p>
+
+<%}%>
+</div>
+<%}%>
+</div>

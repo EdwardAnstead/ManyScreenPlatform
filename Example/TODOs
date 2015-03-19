@@ -1,0 +1,34 @@
+NEXT CODING MODULES AND BITS
+
+Implement the remote control channel selector
+
+
+BUGS AND BITS
+switch the tvPlayback module status updates so as to send only when actually playing back or after the seek update has been completed.
+
+
+channel highlighting on the channel selector.
+
+If you use the event buttton and then try and start the video it just pauses again and again.
+
+
+
+FOR TUESDAY:
+
+feed / data mapping code DONE 
+sort video playback from map DONE
+generate proper tags DONE
+runner video pages
+fullscreen video on tablet
+Sync packets based on actual playback figures every 10 seconds or so. DONE
+clean up data in app
+playback from progress on tablets!
+
+AND 
+
+Ethics ready to go - SUNDAY
+paper points in this study - MONDAY
+study design up date. - MONDAY
+
+
+

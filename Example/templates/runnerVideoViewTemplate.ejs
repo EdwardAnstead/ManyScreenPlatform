@@ -1,0 +1,35 @@
+<div class="runnerVideoViewDiv">
+<h1>Tags of <%=name%></h1>
+
+<%for(var i in tags.existingTags){%>
+
+<div class="tagOrVideoContainer">
+<img class="eventPlaybackImage" id="eventPlaybackButton_<%=tags.existingTags[i].videoPlaybackId%>" src="<%=tags.existingTags[i].thumbnail%>"/>
+<b>Tag Distance:</b> <%= tags.existingTags[i].distance/1000 + 'km'%>
+<b>Tag Time: </b> <%= new Date(tags.existingTags[i].time * 1000).toLocaleString()%>
+<!--<button type=button class="eventPlaybackButton btn" id="eventPlaybackButton_<%=tags.existingTags[i].videoPlaybackId%>">
+Watch Event </button>-->
+</div>
+
+<%}%>
+
+</div>
+
+<div class="runnerVideoViewDiv">
+<h1> Possible sightings of <%=name%></h1>
+
+<%for(var i in tags.possibleVideos){%>
+
+<div class="tagOrVideoContainer">
+<img class="eventPlaybackImage" id="eventPlaybackButton_<%=tags.possibleVideos[i].videoPlaybackId%>" src="<%=tags.possibleVideos[i].thumbnail%>"/>
+<b>Distance: </b> <%= tags.possibleVideos[i].distance/1000 + 'km'%>
+<b>Approximate Time:</b> <%= new Date(tags.possibleVideos[i].possibleTime * 1000).toLocaleString()%> 
+<!--<button type=button class="eventPlaybackButton btn" id="eventPlaybackButton_<%=tags.possibleVideos[i].videoPlaybackId%>">
+Watch Event </button>-->
+
+</div>
+
+<%}%>
+
+</div>
+

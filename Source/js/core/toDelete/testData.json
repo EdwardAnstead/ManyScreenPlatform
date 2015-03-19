@@ -1,0 +1,294 @@
+[
+  {
+    "channelName" : "Athletics",
+    "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 0,
+    "channelId" : "AtheticsChannel",
+    "visible" : true,
+    "endTime" : 734,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "AthleticsVideo",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Athletics Highlights",
+        "startTime" : 0,
+        "endTime" : 734,
+        "videoList" : [
+          {
+            "url" : "http://localhost/~edward/multiscreenWebapp/tears.mp4",
+            "startTime" : "0",
+            "endTime" : 734,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "AthleticsTIC",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Athletics Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "AthleticsVideo",
+        "spoilerLock" : false,
+        "scrubber" : false,
+        "pageListDisplay" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "AthleticsPage1",
+            "time" : 30,
+            "displayAuto" : true,
+            "eventListId" : 0,            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "AthleticsPage2",
+            "time" : 45,
+            "displayAuto" : true,
+            "eventListId" : 0,            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage2.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "AthleticsPage3",
+            "time" : 60,
+            "displayAuto" : true,
+            "eventListId" : 0,            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "AthleticsPage4",
+            "time" : 75,
+            "displayAuto" : true,
+            "eventListId" : 0,            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage2.txt"
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "Rowing",
+    "channelId" : "rowingChannel",
+    "visible" : true,
+    "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 10,
+    "endTime" : 744,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "rowingVideo",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "rowing Highlights",
+        "startTime" : 10,
+        "endTime" : 744,
+        "videoList" : [
+          {
+            "url" : "http://localhost/~edward/multiscreenWebapp/tears.mp4",
+            "startTime" : "0",
+            "endTime" : 744,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "rowingTIC",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "rowing Stats and Info",
+        "startTime" : 10,
+        "endTime" : 10000,
+        "linkedToVideo" : "rowingVideo",
+        "spoilerLock" : true,
+        "scrubber" : false,
+        "pageListDisplay" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage1",
+            "time" : 30,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage2",
+            "time" : 40,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage2.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage3",
+            "time" : 50,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage4",
+            "time" : 60,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "Cycling",
+    "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "visible" : false,
+    "startTime" : 20,
+    "channelId" : "cyclingChannel",
+    "endTime" : 754,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "CyclingVideo",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Cycling Highlights",
+        "startTime" : 20,
+        "endTime" : 754,
+        "videoList" : [
+          {
+            "url" : "http://localhost/~edward/multiscreenWebapp/tears.mp4",
+            "startTime" : "0",
+            "endTime" : 754,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "CyclingTIC",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Cycling Stats and Info",
+        "startTime" : 20,
+        "endTime" : 10000,
+        "linkedToVideo" : "CyclingVideo",
+        "spoilerLock" : true,
+        "scrubber" : false,
+        "pageListDisplay" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0,
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "TIC Scrubber Test",
+    "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "visible" : true,
+    "startTime" : 25,
+    "channelId" : "scrubberTestChannel",
+    "endTime" : 754,
+    "feeds" : [
+        {
+        "type" : "TIC",
+        "feedId" : "scrubberTICfeed",
+        "thumbNail" : "http://localhost/~edward/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Scrubber TIC Test feed",
+        "startTime" : 25,
+        "endTime" : 200,
+        "linkedToVideo" : "none",
+        "spoilerLock" : false,
+        "scrubber" : true,
+        "pageListDisplay" : false,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "TICTestPage1",
+            "time" : 15,
+            "displayAuto" : true,
+            "eventListId" : 0,
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "TICTestPage2",
+            "time" : 30,
+            "displayAuto" : true,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage2.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "TICTestPage3",
+            "time" : 45,
+            "displayAuto" : true,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage3.txt"
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "TICTestPage4",
+            "time" : 60,
+            "displayAuto" : true,
+            "eventListId" : 0,            
+            "url": "http://localhost/~edward/multiscreenWebapp/pages/testPage4.txt"
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+      ]
+    }
+]

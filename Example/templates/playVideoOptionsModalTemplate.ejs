@@ -1,0 +1,22 @@
+<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">close</button>
+        <h4 class="modal-title">Play from event</h4>
+      </div>
+
+<div id="bigDivModal">
+  Select a video of the runner to watch, then select to watch on the television or the tablet, or add to the playlist.
+  <div class="input-group">
+  <ul>
+    <%for(var i in data){
+      domId = data[i].feedId + "_" + data[i].start + "_" + data[i].end + "_" + data[i].showTaggingPage + "_" + "_videoOptionsVideoFeed" %>
+      <input type =radio name ="videos" id=<%=domId%>
+      <%if(i == 0) {%>checked="yes"<%}%>> 
+      <%if(data[i].type == "tag") {%><b>Tag: </b><%}
+      else{%> <b>Possible Sighting: </b> <%}%>
+      video <%=parseInt(i)+1%> <br>
+      <%}%>
+  </div>
+
+<button type="button" class="btn" id="eventPlaybackButtonTelevision">Television</button>
+<button type="button" class="btn" id="eventPlaybackButtonTablet">Tablet</button>
+<button type="button" class="btn" id="eventPlaybackButtonAddToPlaylist">Add To Playlist</button>

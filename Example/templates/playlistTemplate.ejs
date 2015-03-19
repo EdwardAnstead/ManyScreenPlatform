@@ -1,0 +1,25 @@
+
+<%if(!playlist.length){%>
+
+<h1> Nothing in the playlist yet </h1>
+<%}
+
+else{%>
+<button type=button class='btn playPlaylistButton'>Play All </button>
+<ol>
+<%for(var i in playlist){%>
+	<li id='<%=playlist[i].playlistId%>_playlistEntry' class="playlistListItem">
+	<img src='<%=playlist[i].thumbnail%>'>
+	<%=playlist[i].feedName%>
+	<button type=button class='btn eventPlaybackButton' id='EventButtonPlayback_<%=playlist[i].feedId%>_<%=playlist[i].startTime%>_<%=playlist[i].endTime%>'>Play</button>
+	<button type=button class='btn removePlaylistButton'>Remove</button>
+	<button type=button class='btn moveUpPlaylistButton'>Move Up</button>
+	<button type=button class='btn moveDownPlaylistButton'>Move Down</button>
+	</li>
+
+<%}%>
+
+<%}%>
+
+
+</ol>

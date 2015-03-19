@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=en manifest='mani.mf'>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<link rel="stylesheet" href='bootstrap/css/bootstrap.min.css'>
+<link rel='stylesheet' href='css/styles.css'>
+</head>
+
+<body>
+<div id="appWindow">
+<div id='titleBar' class = 'row'>
+<div class='col-sm-6'>
+<h3> Marathon Multiscreen App </h3>
+</div>
+<div class='col-sm6 tvControlsContainer'></div>
+</div>
+<div class="channelListContainer clearfix"></div>
+
+<div class="videoPlayerContainer"></div>
+<div class="TICPlayerContainer">
+<div class="TICPageListContainer"> </div>
+<div class="TICPageContentContainer" id="TICPageContentContainer"> </div>
+<!--<div class="TICScrubberContainer"> </div>-->
+
+</div>
+<!--<div class="debugOutputContainer"></div>-->
+</div>
+<div class="modal fade" id="feedListModal">
+<div class="modal-dialog">
+<div class="modal-content" id="feedListModalContent">
+</div>
+</div> 
+</div>
+
+<script src="js/lib/jquery-2.1.0.js"></script>
+<script src="js/lib/stomp.min.js"></script>
+<script src="js/lib/ejs.js"></script>
+<script src="js/lib/kinetic.js"></script>
+
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script src = "js/core/observerModule.js"></script>
+<script src = "js/core/syncTimeModule.js"></script>
+<script src = "js/core/messageBusModule.js"></script>
+<script src = "js/core/availabilityModule.js"></script>
+
+
+<script src = "js/core/appModule.js"></script>
+<script src = "js/core/tvStatusModule.js"></script>
+
+<script src = "js/core/channelListModule.js"></script>
+<script src = "js/core/videoPlaybackModule.js"></script>
+<script src = "js/core/TICPlaybackModule.js"></script>
+<script src = "js/core/TICPageListModule.js"></script>
+<script src = "js/core/TICScrubberModule.js"></script>
+<script src = "js/core/debugOutputModule.js"></script>
+<script src = "js/core/tvControlsModule.js"></script>
+
+<script src = "js/modules/marathonHelpersModule.js"></script>
+<script src = "js/modules/eventPlaybackButton.js"></script>
+<script src = "js/modules/mapViewModule.js"></script>
+<script src = "js/grouped-data.js"></script>
+<script src = "js/feedMapping.js"> </script>
+<script src = "js/modules/coursePath.json"></script>
+<script src = "js/modules/taggingInterfaceViewModule.js"></script>
+<script src = "js/modules/playlistModule.js"></script>
+<script src = "js/modules/playlistAddButtonModule.js"></script>
+<script src = "js/modules/runnerVideoViewModule.js"></script>
+<script src = "js/modules/tabletTagOverlayModule.js"></script>
+
+
+<script>
+$(document).ready(function(){
+	app.setAndConnect("ws://192.168.0.2:61623");
+	$("#appWindow").on('touchmove', function(e){e.preventPropagation()});
+})
+</script>
+
+</body>
+
+</html>

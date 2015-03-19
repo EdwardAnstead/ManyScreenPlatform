@@ -1,0 +1,13 @@
+<ul>
+<% if (spoilerLock == "locked"){%>
+<li id="spoilerLockButton"> <b>Show Spoilers </b> </li>
+<%}%>
+<%if (spoilerLock == "unlocked"){%>
+<li id="spoilerLockButton"> <b> Hide Spoilers </b> </li>
+<%}%>
+<% for (var i in pages ){%>
+<li class = 'TICPageButton' id='<%=pages[i].pageId%>'> <%=pages[i].pageName%></li>
+<%}%>
+
+</ul>
+

@@ -1,0 +1,792 @@
+[
+  {
+    "channelName": "Race Overview",
+    "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+    "startTime": 0,
+    "channelId": "raceOverviewChannel",
+    "visible": true,
+    "endTime": 1911,
+    "feeds": [
+      {
+        "type": "video",
+        "feedId": "raceOverviewVideo",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch the runners head out from the start and the elite runners race.  See if you can spot your friends and family as they approach the finish line",
+        "feedName": "Video: Race Overview",
+        "startTime": 0,
+        "endTime": 0,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/raceOverview.mp4",
+            "startTime": "0",
+            "endTime": 1911,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "TIC",
+        "feedId": "raceOverviewTIC",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/info.jpg",
+        "visible": true,
+        "description": "Check out all the stats and infomration about the marathon",
+        "feedName": "Stats and information: Race Overview",
+        "startTime": 0,
+        "endTime": 0,
+        "linkedToVideo": "raceOverviewVideo",
+        "spoilerLock": true,
+        "scrubber": false,
+        "pageListDisplay": true,
+        "pageList": [
+          {
+            "title": "Race Route",
+            "pageId": "ProPage1",
+            "time": 30,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/route.txt"
+          },
+          {
+            "title": "Wheelchair Race",
+            "pageId": "ProPage2",
+            "time": 215,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/wheelchairStart.txt"
+          },
+          {
+            "title": "Race History",
+            "pageId": "ProPage3",
+            "time": 350,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/nottRaceOverview.txt"
+          },
+          {
+            "title": "Marathon Facts",
+            "pageId": "ProPage5",
+            "time": 420,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/marathonFacts.txt"
+          },
+          {
+            "title": "Marathon Origins",
+            "pageId": "ProPage8",
+            "time": 490,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/origin.txt"
+          },
+          {
+            "title": "Men's result",
+            "pageId": "ProPage6",
+            "time": 577,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/mensResults.txt"
+          },
+          {
+            "title": "Women's result",
+            "pageId": "ProPage7",
+            "time": 700,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/womensResults.txt"
+          },
+          {
+            "title": "Robin Hood WR",
+            "pageId": "ProPage4",
+            "time": 900,
+            "displayAuto": false,
+            "eventListId": 0,
+            "custom": {},
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/robinhood.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      }
+    ],
+    "autoSelect": false
+  },
+  {
+    "channelName": "Runners",
+    "channelId": "runnersChannel",
+    "visible": true,
+    "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/runners.jpg",
+    "startTime": 0,
+    "endTime": 0,
+    "feeds": [
+      {
+        "type": "video",
+        "feedId": "samVideo",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/sam.jpg",
+        "visible": true,
+        "description": "Watch videos of all the tags of Sam taken on race day",
+        "feedName": "Sam Howard's video",
+        "startTime": 0,
+        "endTime": 0,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/tears.mp4",
+            "startTime": "0",
+            "endTime": 744,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "TIC",
+        "feedId": "samMapTIC",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/sam.jpg",
+        "visible": true,
+        "description": "Select from all of Sam's tags and possible sightings on a map of the course",
+        "feedName": "Sam Howard's Tag Map",
+        "startTime": 0,
+        "endTime": 0,
+        "linkedToVideo": "none",
+        "spoilerLock": false,
+        "scrubber": false,
+        "pageListDisplay": false,
+        "pageList": [
+          {
+            "title": "Sam's Map",
+            "pageId": "rowingPage4",
+            "time": 0,
+            "displayAuto": true,
+            "eventListId": 0,
+            "custom": {
+              "raceNo": 3518
+            },
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/testPage4.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "TIC",
+        "feedId": "samVideoListTIC",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/sam.jpg",
+        "visible": true,
+        "description": "Select from a list of Sam's tags and possible sightings",
+        "feedName": "Sam Howard's Tagged Videos",
+        "startTime": 0,
+        "endTime": 0,
+        "linkedToVideo": "none",
+        "spoilerLock": false,
+        "scrubber": false,
+        "pageListDisplay": false,
+        "pageList": [
+          {
+            "title": "Sam's tagged Video List",
+            "pageId": "samTaggedVideoList",
+            "time": 0,
+            "displayAuto": true,
+            "eventListId": 0,
+            "custom": {
+              "raceNo": 3518
+            },
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/runnerVideoListPage.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "gavinVideo",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/gavin.jpg",
+        "visible": true,
+        "description": "Watch videos of all the tags of Gavin taken on race day",
+        "feedName": "Gavin Smith's Tag Video",
+        "startTime": 0,
+        "endTime": 0,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/tears.mp4",
+            "startTime": "0",
+            "endTime": 0,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "TIC",
+        "feedId": "gavinMapTIC",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/gavin.jpg",
+        "visible": true,
+        "description": "Select from all of Sam's tags and possible sightings on a map of the course",
+        "feedName": "Gavins's Tag Map",
+        "startTime": 0,
+        "endTime": 0,
+        "linkedToVideo": "none",
+        "spoilerLock": false,
+        "scrubber": false,
+        "pageListDisplay": false,
+        "pageList": [
+          {
+            "title": "Gavin's Map",
+            "pageId": "rowingPage5",
+            "time": 0,
+            "displayAuto": true,
+            "eventListId": 0,
+            "custom": {
+              "raceNo": 1134
+            },
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/testPage5.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "TIC",
+        "feedId": "gavinVideoListTIC",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/gavin.jpg",
+        "visible": true,
+        "description": "Select from a list of Sam's tags and possible sightings",
+        "feedName": "View Gavin's Tagged Videos",
+        "startTime": 0,
+        "endTime": 0,
+        "linkedToVideo": "none",
+        "spoilerLock": false,
+        "scrubber": false,
+        "pageListDisplay": false,
+        "pageList": [
+          {
+            "title": "Gavin's tagged Video List",
+            "pageId": "gavinTaggedVideoList",
+            "time": 0,
+            "displayAuto": true,
+            "eventListId": 0,
+            "custom": {
+              "raceNo": 1134
+            },
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/runnerVideoListPage.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      }
+    ],
+    "autoSelect": false
+  },
+  {
+    "channelName": "My Videos",
+    "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/myVideos.jpg",
+    "visible": true,
+    "startTime": 0,
+    "channelId": "myVideosChannel",
+    "endTime": 0,
+    "feeds": [
+      {
+        "type": "video",
+        "feedId": "spectatorp2Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp2 videos",
+        "custom": {"showTaggingButton":true,
+          "runners": [
+                {
+                  "name": "sam Howard",
+                  "raceNo": 3518
+                },
+                {
+                  "name": "Gavin Smith",
+                  "raceNo": 1134
+                }
+              ]},
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p2Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp3Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp3 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p3Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp5Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp5 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p5Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp6Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp6 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p6Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp7Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp7 Videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p7Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp8Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp8 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p8Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp9Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp9 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p9Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp11Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp11 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p11Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp12Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp12 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p12Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp13Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp13 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p13Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp15Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp15 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p15Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp16Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp16 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p16Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp17Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp17 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p17Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp18Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp18 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p18Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp19Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp19 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p19Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp20Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp20 videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p20Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      },
+      {
+        "type": "video",
+        "feedId": "spectatorp21Video",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "spectatorp21 Videos",
+        "startTime": 20,
+        "endTime": 754,
+        "videoList": [
+          {
+            "url": "http://192.168.0.2/videos/spectatorVideos/p21Video.mp4",
+            "startTime": "0",
+            "endTime": 754,
+            "eventList": []
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "no"
+        }
+      }
+    ],
+    "autoSelect": false
+  },
+  {
+    "channelName": "Playlist",
+    "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/playlist.jpg",
+    "visible": true,
+    "startTime": 0,
+    "channelId": "playlistTestChannel",
+    "endTime": 0,
+    "feeds": [
+      {
+        "type": "TIC",
+        "feedId": "playlistTICfeed",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": true,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "playlist",
+        "startTime": 0,
+        "endTime": 0,
+        "linkedToVideo": "none",
+        "spoilerLock": false,
+        "scrubber": false,
+        "pageListDisplay": false,
+        "pageList": [
+          {
+            "title": "Some Page",
+            "pageId": "TICTestPage1",
+            "time": 0,
+            "displayAuto": true,
+            "eventListId": 0,
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/playlistTestPage.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "start"
+        }
+      }
+    ],
+    "autoSelect": false
+  },
+  {
+    "channelName": "Tag Runners",
+    "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/tag.jpg",
+    "visible": true,
+    "startTime": 0,
+    "channelId": "taggingInterfaceChannel",
+    "endTime": 0,
+    "feeds": [
+      {
+        "type": "TIC",
+        "feedId": "taggingTIC",
+        "thumbNail": "http://192.168.0.2/multiscreenWebappMarathon/imgs/thumbs/marathumb.jpg",
+        "visible": false,
+        "description": "Watch all the videos from this spectator",
+        "feedName": "rowing Stats and Info",
+        "startTime": 0,
+        "endTime": 10000,
+        "linkedToVideo": false,
+        "spoilerLock": false,
+        "scrubber": false,
+        "pageListDisplay": false,
+        "pageList": [
+          {
+            "title": "Some Page",
+            "pageId": "addTagPage",
+            "time": 0,
+            "displayAuto": true,
+            "eventListId": 0,
+            "custom": {
+              "runners": [
+                {
+                  "name": "sam Howard",
+                  "raceNo": 3518
+                },
+                {
+                  "name": "Gavin Smith",
+                  "raceNo": 1134
+                }
+              ]
+            },
+            "url": "http://192.168.0.2/multiscreenWebappMarathon/pages/taggingPage.txt"
+          }
+        ],
+        "autoplay": {
+          "tv": "no",
+          "app": "start"
+        }
+      }
+    ],
+    "autoSelect": false
+  }
+]

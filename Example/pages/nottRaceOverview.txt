@@ -1,0 +1,48 @@
+<h2> Nottingham 'Robin Hood' Marathon </h2>
+The Nottingham Marathon has England held every year since 1981. The race today incorporates a half-marathon, and a fun-run, in addition to the full marathon. A corporate relay event is also held in which teams of five runners from local companies and businesses run legs of 2–3 miles on the half-marathon course.
+
+The original race started and finished in the Old Market Square, in Nottingham City Centre. From 1982 onwards the race has started and finished from the Victoria Embankment (Nottingham) taking in some of Nottingham's most historical and scenic sights, including the City Centre and Nottingham Castle, Wollaton Park, the University of Nottingham and the National Watersports Centre at Holme Pierrepont.
+
+In 2005 Runners World Magazine readers voted the race the number two marathon in the United Kingdom.
+
+The full marathon was dropped for the 2012 event because of "issues with the route around Holme Pierrepont". The half-marathon event was held on a revised route. In 2013 the marathon returns after being cancelled in 2012, following revisions to the route to allow for greater participant safety.
+
+<h3>Half Marathon Winners </h3>
+
+<table>
+<th><td>Year</td><td>Men's winner</td><td>Time (h:m:s)</td><td>Women's winner</td><td>Time (h:m:s)</td></th>
+<tr><td>1981</td><td>Richard Milne (Wales)</td><td>1:06:55</td><td>Cherry Hanson</td><td>1:15:26</td></tr>
+<tr><td>1982</td><td>Richard Milne (Wales)</td><td>1:06:38</td><td>Jill Clarke</td><td>1:20:41</td></tr>
+<tr><td>1983</td><td>James Merryfield</td><td>1:05:51</td><td>Angela Smith</td><td>1:23:42</td></tr>
+<tr><td>1984</td><td>Christopher Woodhouse</td><td>1:05:06</td><td>Ann Bankowska</td><td>1:21:30</td></tr>
+<tr><td>1985</td><td>David Driver</td><td>1:06:47</td><td>Rosemary Hill</td><td>1:24:24</td></tr>
+<tr><td>1986</td><td>Jeremy Watson</td><td>1:07:41</td><td>Jacqueline Davis</td><td>1:27:30</td></tr>
+<tr><td>1987</td><td>David Lewis</td><td>1:08:20</td><td>Linda Rushmere (Southwell)</td><td>1:19:29</td></tr>
+<tr><td>1988</td><td>David Lewis</td><td>1:05:31</td><td>Heather Jennings</td><td>1:16:57</td></tr>
+<tr><td>1989</td><td>David Lewis</td><td>1:04:43</td><td>Heather Jennings</td><td>1:18:40</td></tr>
+<tr><td>1990</td><td>David Lewis</td><td>1:06:24</td><td>Linda Rushmere (Southwell)</td><td>1:19:22</td></tr>
+<tr><td>1991</td><td>Richard Ironmonger (Notts AC)</td><td>1:06:09</td><td>Jacqueline Davis</td><td>1:20:05</td></tr>
+<tr><td>1992</td><td>James Gombetza (Zimbabwe)</td><td>1:05:22</td><td>Annette Bell (Lincoln Wellington)</td><td>1:16:54</td></tr>
+<tr><td>1993</td><td>Michael Pearson</td><td>1:07:26</td><td>Ann Ford (Redhill Road Runners)</td><td>1:20:34</td></tr>
+<tr><td>1994</td><td>James Harrison (Australia)</td><td>1:05:41</td><td>Linda Rushmere (Southwell)</td><td>1:16:38</td></tr>
+<tr><td>1995</td><td>Alan Chilton</td><td>1:08:08</td><td>Carol Holmes</td><td>1:15:16</td></tr>
+<tr><td>1996</td><td>Richard Ironmonger (Notts AC)</td><td>1:09:06</td><td>Carol Holmes</td><td>1:17:31</td></tr>
+<tr><td>1997</td><td>Eamonn Hyland (Redhill Road Runners)</td><td>N/A</td><td>Ann Ford</td><td>N/A</td></tr>
+<tr><td>1998</td><td>Michael Pearson</td><td>1:09:24</td><td>Claire Naylor</td><td>1:20:22</td></tr>
+<tr><td>1999</td><td>Malcolm Price</td><td>1:06:12</td><td>Elizabeth Allott</td><td>1:14:38</td></tr>
+<tr><td>2000</td><td>Vince Garner</td><td>1:08:25</td><td>Claire Naylor</td><td>1:18:13</td></tr>
+<tr><td>2001</td><td>Andrew Pearson</td><td>1:08:15</td><td>Tara Krzywicki (Charnwood)</td><td>1:17:09</td></tr>
+<tr><td>2002</td><td>William Musyoki (Kenya)</td><td>1:07:10</td><td>Alison Fletcher (Dulwich)</td><td>1:17:37</td></tr>
+<tr><td>2003</td><td>Phillip Sly (Australia)</td><td>1:05:31</td><td>Lisa Knights (Sutton-in-Ashfield)</td><td>1:20:49</td></tr>
+<tr><td>2004</td><td>Zachary Kihara Njoroge (Kenya)</td><td>1:05:21</td><td>Hawa Hussein (Tanzania)</td><td>1:14:25</td></tr>
+<tr><td>2005</td><td>Paul Langat Kipkemboi (Kenya)</td><td>1:03:25</td><td>Catherine Mutua (Kenya)</td><td>1:15:24</td></tr>
+<tr><td>2006</td><td>Simon Kasimili (Kenya)</td><td>1:03:42</td><td>Caroline Cheptanui (Kenya)</td><td>1:13:32</td></tr>
+<tr><td>2007</td><td>Simon Tanui (Kenya)</td><td>1:04:09</td><td>Jane Muia Mwikali (Kenya)</td><td>1:14:00</td></tr>
+<tr><td>2008</td><td>Ezekeic Cherop (Kenya)</td><td>1:05:28</td><td>Banuela Katesigwa (Tanzania)</td><td>1:16:36</td></tr>
+<tr><td>2009</td><td>Ezekiel Cherop (Kenya)</td><td>1:05:43</td><td>Joyce Kirui (Kenya)</td><td>1:16:57</td></tr>
+<tr><td>2010</td><td>Gordon Mugi Mahugu (Kenya)</td><td>1:04:47</td><td>Sara Kiptoo Cheriwoi (Kenya)</td><td>1:16:54</td></tr>
+<tr><td>2011</td><td>Elisha Tarus Meli (Kenya)</td><td>1:05:52</td><td>Dorcus Chesang (Kenya)</td><td>1:14:40</td></tr>
+<tr><td>2012</td><td>Luka Rotich (Kenya)</td><td>1:01:38</td><td>Agnes Chebet (Kenya)</td><td>1:13:33</td></tr>
+<tr><td></td></tr>
+</table>
+

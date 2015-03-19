@@ -1,0 +1,345 @@
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.channelListContainer {
+    width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.caption{
+	padding: 3px;
+}
+
+.btn{
+	padding: 5px 10px 5px 10px;
+	border:1px solid black;
+	border-radius: 5px;
+	font-size: 18px;
+	margin:5px;
+	color: #222;
+	background-color: #ccc;
+
+}
+
+
+.col2Width{
+	float: left;	
+	max-width: 200px;
+	margin-left: 3px;
+	margin-right:3px;
+	display:inline-block;
+}
+
+.col2Width img{
+		height: 126px;
+		width: 190px;
+}
+
+#bigDivModal{
+	max-height: 400px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+#titleBar{
+	background-color: black;
+	color: white;
+	margin: 0;
+	min-width:100%;
+}
+
+.tvControlsContainer img
+{
+	margin: 0 10px 0 10px;
+	width: 30px;
+	height:30px;
+}
+.tvControlsContainer{
+	padding-top: 3px ;
+}
+#titleBar h3{
+	margin: 5px 0px 5px 0px;
+}
+
+.media-object{
+	width: 70px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.startHidden{
+	display:none;
+}
+
+#appWindow{
+	display:block;
+	min-width: 100%;
+	min-height:100%;
+	max-width: 100%;
+	max-height: 100%;
+	position:absolute;
+}
+
+.meter { 
+	margin-top: 10px;
+	height: 20px;  
+	position: relative;
+	background: #777;
+}
+
+.meter > .liveProgressMeter {
+	height: 20px;
+	background-color: #333;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+.meter > .playheadProgressMeter{
+	height: 20px;
+	background-color: blue;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+#videoPlayerElement{
+	width:100%;
+	height:87%;
+	margin: auto; 
+}
+
+#blackoutForVideo{
+	margin:0px;
+	width:100%;
+	height: 100%;
+	background-color: #000000;
+	text-align: center;
+}
+
+#taggingButtonOverlay{
+	margin:0px;
+	z-index: 100;
+	position: absolute;
+
+}
+
+#innerVideoContainer{
+	position:relative;
+}
+
+
+#loadingMask{
+	width:100%;
+	height:100%;
+	background-color: rgba(30,30,30,80);
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 101;
+}
+
+#loadingMask img{
+	height: 5%;
+	position: fixed;
+	top:50%;
+	left: 50%;
+
+}
+
+#videoControls{
+	text-align:left;
+	width: 100%;
+	height:10%;
+	color: #BBBBBB;
+}
+
+.TICPageContentContainer{
+	overflow:auto;
+	float: left;
+	width:760px;
+	max-height:490px;
+	padding-left: 5px;
+	/*display:block;*/
+
+}
+
+.TICPageListContainer{
+	display:none;
+	float: left;
+	width:230px;
+	height:490px;
+	border-right: 1px solid #777777;
+	overflow: auto;
+
+}
+
+.TICPlayerContainer:after{
+	clear: both;
+}
+
+.TICPlayerContainer{
+	/*display: block;*/
+	max-height:490px;
+}
+
+.TICPageListContainer li{
+	display: block;
+	border-bottom: 1px solid #777777;
+}
+
+
+.videoPlayerContainer{
+	display: hidden;
+	height:400px;
+}
+
+.feedOptionsModalButton{
+	margin-top: 15px;
+}
+
+.digitTagButton, #clear_tagButton{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	font-size: 35px;
+	padding-left: 50px;
+	padding-right:50px;
+	background-color: #ffffff;
+	border:1px solid #000000;
+}
+
+#okTagButton{
+	margin-top: 5px;
+	width:100%;
+	font-size: 35px;
+	color: #ffffff;
+	background-color: #000000;
+	border:1px solid #ffffff;
+	border-radius: 80px;
+}
+
+#inputNumber{
+	min-height: 55px;
+	max-width: 120px;
+	font-size: 30px;
+}
+
+#numberPad{
+	visibility: hidden;
+	width: 430px;
+}
+
+#knownRunners{
+	width: 430px;
+}
+
+.runnerTagButton{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+	font-size:25px;
+	background-color: #ffffff;
+	border:1px solid #000000;
+	border-radius: 80px; 
+
+}
+
+.infoPara{
+	font-size: 20px;
+}
+
+.TICPageButton, #spoilerLockButton{
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.videoPlayerPlayPauseButton{
+	float:left;
+	width: 70px;
+	padding:0px 5px 0px 25px;
+}
+
+#videoPlayerSeekBar{
+	float: left;
+}
+
+.videoPlayerTimer{
+	width: 80px;
+	float: left;
+	font-size: 20px;
+	padding:5px 5px 0px 5px;
+}
+
+.videoPlayerFullscreenButton{
+	width:40px;
+	float:left;
+}
+
+.tagOrVideoContainer{
+	margin: 5px;
+	padding: 10px 20px 10px 20px;
+	float:left;
+	display: block;
+
+}
+.tagOrVideoContainer img{
+	height: 150px;
+}
+
+.runnerVideoViewDiv{
+	clear: both;
+}
+
+.tagOrVideoContainer button{
+	font-size: 35px;
+	padding-left: 20px;
+	padding-right:20px;
+	background-color: #ffffff;
+	border:1px solid #000000;
+	border-radius:15px;
+}
+
+.playlistListItem img{
+	height: 100px;
+}
+
+.playlistListItem{
+	padding: 5px;
+	font-size: 30px;
+}
+
+table{
+	border: 1px soid black;
+}
+
+
+

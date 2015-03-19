@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" href='bootstrap/css/bootstrap.min.css'>
+<link rel='stylesheet' href='css/tvStyle.css'>
+</head>
+
+<body>
+<div class="tvWindow">
+<div class="tvOverlay"></div>
+<div class="tvPlayerContainer">
+</div>
+</div>
+
+<script src="js/lib/jquery-2.1.0.js"> </script>
+<script src="js/lib/stomp.min.js"> </script>
+<script src="js/lib/ejs.js"> </script>
+
+<script src="bootstrap/js/bootstrap.min.js"> </script>
+
+<script src = "js/core/observerModule.js"> </script>
+<script src = "js/core/syncTimeModule.js"> </script>
+<script src = "js/core/messageBusModule.js"> </script>
+<script src = "js/core/availabilityModule.js"> </script>
+
+<script src = "js/core/appModule.js"> </script>
+<script src = "js/core/tvOverlayModule.js"> </script>
+<script src = "js/core/channelListModule.js"> </script>
+<script src = "js/core/tvPlaybackModule.js"> </script>
+
+
+
+<script>
+$(document).ready(function(){
+	app.setAndConnect("ws://192.168.0.2:61623");
+})
+</script>
+
+</body>
+
+</html>

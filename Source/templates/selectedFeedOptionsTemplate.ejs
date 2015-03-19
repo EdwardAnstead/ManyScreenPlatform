@@ -1,0 +1,22 @@
+<% if(type == "video") { %>
+<div  class="checkbox">
+  <label>
+    <input id="tvCheckBox" type = "checkbox" value ''>  Watch on TV
+  </label>
+
+</div>
+
+<button type="button" class="btn" id="startButton">Start</button>
+<% if(available == "live") {%>
+	<button type="button" class="btn" id="liveButton">Live</button>
+<% }%>
+
+<% if(progress != 0) {%>
+<button type="button" class="btn" id="resumeButton">Resume</button>
+<%}%>
+<%}%>
+
+<%if(type=="TIC"){ %>
+<button type="button" class='btn' id='okButton'>Ok</button>
+<%}%>
+

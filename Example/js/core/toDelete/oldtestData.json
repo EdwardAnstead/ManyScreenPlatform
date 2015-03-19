@@ -1,0 +1,513 @@
+[
+  {
+    "channelName" : "Athletics",
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 0,
+    "channelId" : "AtheticsChannel",
+    "visible" : true,
+    "endTime" : 734,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "AthleticsVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Cycling Highlights",
+        "startTime" : 0,
+        "endTime" : 734,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialCycling.m4v",
+            "startTime" : "0",
+            "endTime" : 734,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "AthleticsTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Cycling Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "CyclingVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "Rowing",
+    "channelId" : "rowingChannel",
+    "visible" : true,
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 10,
+    "endTime" : 744,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "RowingVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "rowing Highlights",
+        "startTime" : 0,
+        "endTime" : 744,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialrowing.m4v",
+            "startTime" : "0",
+            "endTime" : 744,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "rowingTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "rowing Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "rowingVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "rowingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "Cycling",
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "visible" : false,
+    "startTime" : 20,
+    "channelId" : "cyclingChannel",
+    "endTime" : 754,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "CyclingVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Cycling Highlights",
+        "startTime" : 0,
+        "endTime" : 754,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialCycling.m4v",
+            "startTime" : "0",
+            "endTime" : 754,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "CyclingTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "Cycling Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "CyclingVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "CyclingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  }
+/*  {
+   "channelName" : "tennis",
+    "channelId" : "tennisChannel",
+    "visible" : true,
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 30,
+    "endTime" : 754,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "tennisVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "tennis Highlights",
+        "startTime" : 0,
+        "endTime" : 754,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialtennis.m4v",
+            "startTime" : "0",
+            "endTime" : 754,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "tennisTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "tennis Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "tennisVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "tennisPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "tennisPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "tennisPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "tennisPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "swimming",
+    "channelId" : "swimmingChannel",
+    "visible" : true,
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 40,
+    "endTime" : 754,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "swimmingVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "swimming Highlights",
+        "startTime" : 0,
+        "endTime" : 754,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialswimming.m4v",
+            "startTime" : "0",
+            "endTime" : 754,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "swimmingTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "swimming Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "swimmingVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "swimmingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "swimmingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "swimmingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "swimmingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "diving",
+    "channelId" : "divingChannel",
+    "visible" : true,
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 50,
+    "endTime" : 754,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "divingVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "diving Highlights",
+        "startTime" : 0,
+        "endTime" : 754,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialdiving.m4v",
+            "startTime" : "0",
+            "endTime" : 754,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "divingTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "diving Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "divingVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "divingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "divingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "divingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "divingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  },
+  {
+    "channelName" : "sailing",
+    "channelId" : "sailingChannel",
+    "visible" : true,
+    "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+    "startTime" : 60,
+    "endTime" : 754,
+    "feeds" : [
+      {
+        "type" : "video",
+        "feedId" : "sailingVideo",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "sailing Highlights",
+        "startTime" : 0,
+        "endTime" : 754,
+        "videoList" : [
+          {
+            "url" : "http://192.168.0.2/videos/trialsailing.m4v",
+            "startTime" : "0",
+            "endTime" : 754,
+            "eventList" : []
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      },
+      {
+        "type" : "TIC",
+        "feedId" : "sailingTIC",
+        "thumbNail" : "http://localhost/multiscreenWebapp/imgs/thumbs/ennis.jpg",
+        "visible" : true,
+        "description" : "a feed about something or other",
+        "feedName" : "sailing Stats and Info",
+        "startTime" : 0,
+        "endTime" : 10000,
+        "linkedToVideo" : "sailingVideo",
+        "spoilerLock" : true,
+        "pageList" : [
+          {
+            "title" : "Some Page",
+            "pageId" : "sailingPage1",
+            "time" : 49,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "sailingPage2",
+            "time" : 434,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "sailingPage3",
+            "time" : 495,
+            "displayAuto" : false,
+            "eventListId" : 0
+          },
+          {
+            "title" : "Some Page",
+            "pageId" : "sailingPage4",
+            "time" : 549,
+            "displayAuto" : false,
+            "eventListId" : 0
+          }
+        ],
+        "autoplay" : {"tv":"no","app":"no"}
+      }
+    ],
+    "autoSelect" : false
+  }*/
+]

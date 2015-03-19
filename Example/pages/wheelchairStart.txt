@@ -1,0 +1,21 @@
+<h2>Wheelchair Marathons </h2>
+<img src="/multiscreenWebappMarathon/pages/BostonWheel.jpg" width=700 />
+<p>
+Many marathons feature a wheelchair division. Typically, those in the wheelchair racing division start their races earlier than their running counterparts.
+</p>
+<p>
+The first wheelchair marathon was in 1974 in Toledo, Ohio, won by Bob Hall in 2:54. Hall competed in the 1975 Boston Marathon and finished in 2:58, inaugurating the introduction of wheelchair divisions into the Boston Marathon. From 1977 the race was declared the US National Wheelchair championship. The Boston Marathon awards $10,000 to the winning push-rim athlete. Ernst van Dyk has won the Boston Marathon wheelchair division ten times and holds the world record at 1:18:27, set in Boston in 2004. Jean Driscoll won eight times (seven consecutively) and holds the women's world record at 1:34:22.
+</p>
+<p>
+The New York City Marathon banned wheelchair entrants in 1977, citing safety concerns, but then voluntarily allowed Bob Hall to compete after the state Division of Human Rights ordered the marathon to show cause.[49][50] The Division ruled in 1979 that the New York City Marathon and New York Road Runners club had to allow wheelchair athletes to compete, and confirmed this at appeal in 1980,[51] but the State Supreme Court ruled in 1981 that a ban on wheelchair racers was not discriminatory as the marathon was historically a foot race.[52] However, by 1986 14 wheelchair athletes were competing, and an official wheelchair division was added to the marathon in 2000.
+</p>
+<h3> Classifications </h3>
+<p>
+Classification systems have been put into place to ensure that the competition is fair, ensuring that all of the competitors have an equal opportunity to place, and they can because of their talent and not because their disability was less severe than the other competitors. Athletes are divided into categories depending on their disability, these are spinal cord injury or an amputee, or cerebral palsy. The classification guidelines are continually being changed to include more athletes.
+</p>
+<p>
+Athletes who are in a wheelchair due to spinal cord injury or are an amputee are in classes T51 – T58. Classes T51 – T54 are for athletes in a wheelchair who are competing in track events, and classes T55 – T58 are for athletes who are competing in field events. An athlete who is classed as T54 is completely functional from the waist up. An athlete who is classed as T53 has restricted movement in their abdominals. An athlete who is classed as either T52 or T51 has restricted movement in their upper limbs.
+</p>
+<p>
+Athletes who are in a wheelchair due to cerebral palsy have different guidelines compared to an athlete with a spinal cord injury or who is an amputee, and range between T32 – T38. Classes T32 –T34 are classes for athletes in a wheelchair and classes T35 – T38 are for athletes who can stand.
+</p>
