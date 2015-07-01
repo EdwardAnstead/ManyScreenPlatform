@@ -1,0 +1,29 @@
+Many-Screen Platform Copyright 2014-2015 The University of Nottingham. 
+
+This product includes software developed at The Universtiy of Nottingham (http://www.nottingham.ac.uk/). See also the file LICENSE.txt The purpose of this NOTICE.txt file is to contain notices that are required by the copyright owner and their license. Some of the accompanying products have an attribution requirement, so see below.
+
+jQuery JavaScript Library provided by John Resig and the jQuery Foundation
+http://jquery.com/
+License: MIT License (http://jquery.org/license)
+Copyright 2011 John Resig
+
+EJS Embedded JavaScript templates
+http://ejs.co
+Licence: Apache License v2 (http://www.apache.org/licenses/LICENSE-2.0)
+Copyright 2012 Matthew Earnisse mde@fleegix.org
+
+Stomp-websocket by Jeff Mesnil & Jeff Lindsay
+http://jmesnil.net/stomp-websocket/doc/
+Licence: AGPLv3 (https://gnu.org/licenses/agpl.html)
+Copyright  2012 Jeff Mesnil & Jeff Lindsay
+
+Bootstrap by Twitter
+http://getbootstrap.com
+License: MIT (http://opensource.org/licenses/MIT)
+Copyright Twitter 2015
+
+WebSocket Client & Server Implementation for Node
+https://github.com/theturtle32/WebSocket-Node
+License: Licence: Apache License v2 (http://www.apache.org/licenses/LICENSE-2.0)
+Copyright  2011 Einar Otto Stangvik
+

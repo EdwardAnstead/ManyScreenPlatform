@@ -9,7 +9,6 @@ exports.parseTvPlayheadMessage = function(message)
 {
 	//update the state of the intrenal TV model based on the message
 	//play / pause
-	console.log("passed " + JSON.stringify(message) + " to parseTvPayheadMessage the selected feed is of type " + selectedFeed.state);
 	if(selectedFeed && message.state != selectedFeed.state)
 	{
 		selectedFeed.state = message.state;

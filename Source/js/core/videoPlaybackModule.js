@@ -53,7 +53,10 @@ var videoplayback = (function(){
 		
 	}
 
-	app.subscribe(moduleName, observerCallback)
+	if($("#videoPlayerElement").length)
+	{
+		app.subscribe(moduleName, observerCallback)
+	}
 
 	var startPlayback = function(message)
 	{

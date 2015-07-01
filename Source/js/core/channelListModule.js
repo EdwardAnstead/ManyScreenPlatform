@@ -42,38 +42,39 @@ var channelList = (function()
 		}
 	}
 
-	if($('.channelListContainer').length)
-	{
-		app.subscribe(moduleName, observerCallback);
-	}
+
+	app.subscribe(moduleName, observerCallback);
 
 	var drawChannels = function()
-	{	
-		var am = {startChannel: firstChannelToDraw, dataLength: appModel.length, channels: []};
-		var selectedChannel;
-		for (var i in appModel)
-		{
-			if(internalModel.appModel[i].available == "yes" || internalModel.appModel[i].available == "live")
+	{
+		if($('.channelListContainer').length)
+		{	
+			var am = {startChannel: firstChannelToDraw, dataLength: appModel.length, channels: []};
+			var selectedChannel;
+			for (var i in appModel)
 			{
-				am.channels.push({
-					channelId: appModel[i].channelId,
-					channelName: appModel[i].channelName,
-					thumbNail: appModel[i].thumbNail
-				})
-			}
+				if(internalModel.appModel[i].available == "yes" || internalModel.appModel[i].available == "live")
+				{
+					am.channels.push({
+						channelId: appModel[i].channelId,
+						channelName: appModel[i].channelName,
+						thumbNail: appModel[i].thumbNail
+					})
+				}
 
-			if(internalModel.appModel[i].selected == true)
+				if(internalModel.appModel[i].selected == true)
+				{
+					selectedChannel = internalModel.appModel[i];
+				}
+			}
+			var channelHTML = new EJS({url: "templates/channelListTemplate.ejs"}).render(am);
+			$(".channelListContainer").html(channelHTML);
+			$('#bigDiv').css({'width': 214*appModel.length});
+
+			if(selectedChannel != undefined)
 			{
-				selectedChannel = internalModel.appModel[i];
+				$('#' + selectedChannel.channelId).css({'border': '2px solid blue'});
 			}
-		}
-		var channelHTML = new EJS({url: "templates/channelListTemplate.ejs"}).render(am);
-		$(".channelListContainer").html(channelHTML);
-		$('#bigDiv').css({'width': 214*appModel.length});
-
-		if(selectedChannel != undefined)
-		{
-			$('#' + selectedChannel.channelId).css({'border': '2px solid blue'});
 		}
 
 	}
@@ -105,64 +106,69 @@ var channelList = (function()
 		//check if any of the feed for the channel are autoplay
 		for(var i in channel.feeds)
 		{
-			switch(channel.feeds[i].autoplay.tv)
+			if(app.getApplicationType() == "tv")
 			{
-				case "start":
-					app.update(moduleName,{"statusUpdate":{
-						"type":"feedSelect",
-						"device":"tv",
-						"feedId": channel.feeds[i].feedId,
-						"progress": 0,
-						"location": "start"}});	
-					return true;		
-
-				case "live":
+				switch(channel.feeds[i].autoplay.tv)
+				{
+					case "start":
 						app.update(moduleName,{"statusUpdate":{
-						"type":"feedSelect",
-						"device":"tv",
-						"feedId": channel.feeds[i].feedId,
-						"progress": achannel.feeds[i].liveTime,
-						"location": "live"}});	
-					return true;
+							"type":"feedSelect",
+							"device":"tv",
+							"feedId": channel.feeds[i].feedId,
+							"progress": 0,
+							"location": "start"}});	
+						return true;		
 
-				case "resume":
-						app.update(moduleName,{"statusUpdate":{
-						"type":"feedSelect",
-						"device":"tv",
-						"feedId": channel.feeds[i].feedId,
-						"progress": app.getResumePosition(channel.feeds[i].feedId),
-						"location": "resume"}});	
-					return true;
+					case "live":
+							app.update(moduleName,{"statusUpdate":{
+							"type":"feedSelect",
+							"device":"tv",
+							"feedId": channel.feeds[i].feedId,
+							"progress": achannel.feeds[i].liveTime,
+							"location": "live"}});	
+						return true;
+
+					case "resume":
+							app.update(moduleName,{"statusUpdate":{
+							"type":"feedSelect",
+							"device":"tv",
+							"feedId": channel.feeds[i].feedId,
+							"progress": app.getResumePosition(channel.feeds[i].feedId),
+							"location": "resume"}});	
+						return true;
+				}
 			}
-
-			switch(channel.feeds[i].autoplay.app)
+			else if(app.getApplicationType() == "app")
 			{
-				case "start":
-					app.update(moduleName,{"statusUpdate":{
-						"type":"feedSelect",
-						"device":"app",
-						"feedId": channel.feeds[i].feedId,
-						"progress": 0,
-						"location": "start"}});	
-					return true;
+				switch(channel.feeds[i].autoplay.app)
+				{
+					case "start":
+						app.update(moduleName,{"statusUpdate":{
+							"type":"feedSelect",
+							"device":"app",
+							"feedId": channel.feeds[i].feedId,
+							"progress": 0,
+							"location": "start"}});	
+						return true;
 
-				case "live":
-					app.update(moduleName,{"statusUpdate":{
-						"type":"feedSelect",
-						"device":"app",
-						"feedId": channel.feeds[i].feedId,
-						"progress": channel.feeds[i].liveTime,
-						"location": "live"}});
-					return true;
+					case "live":
+						app.update(moduleName,{"statusUpdate":{
+							"type":"feedSelect",
+							"device":"app",
+							"feedId": channel.feeds[i].feedId,
+							"progress": channel.feeds[i].liveTime,
+							"location": "live"}});
+						return true;
 
-				case "resume":
-					app.update(moduleName,{"statusUpdate":{
-						"type":"feedSelect",
-						"device":"app",
-						"feedId": channel.feeds[i].feedId,
-						"progress": app.getResumePosition(channel.feeds[i].feedId),
-						"location": "resume"}});
-					return true;
+					case "resume":
+						app.update(moduleName,{"statusUpdate":{
+							"type":"feedSelect",
+							"device":"app",
+							"feedId": channel.feeds[i].feedId,
+							"progress": app.getResumePosition(channel.feeds[i].feedId),
+							"location": "resume"}});
+						return true;
+				}
 			}
 
 		}
@@ -206,7 +212,6 @@ var channelList = (function()
 		var selectedFeedHTML = new EJS({url: 'templates/selectedFeedOptionsTemplate.ejs'})
 									.render(feed);
 		$('#selectedFeedOptionsDiv').html(selectedFeedHTML);
-
 
 	}
 
@@ -272,14 +277,7 @@ var channelList = (function()
 		}
 		//hide the modal and send to the update function
 
-
-		
-
-
-
 	}
-
-
 
 	var channelDivClickHandler = function(event)
 	{
@@ -288,9 +286,6 @@ var channelList = (function()
 		selectChannel('appModel', targetDiv);
 		//launch the modal with a list of feeds tv options
 		feedSelector(app.getChannelFromApplicationModel(targetDiv));
-
 	}
 	$(".channelListContainer").on('click', '.channelDiv', channelDivClickHandler)
-
-
 }());

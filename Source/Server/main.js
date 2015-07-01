@@ -15,6 +15,8 @@ var stomp = require("stompjs");
 //var playbackSate = require("./playbackState.js");
 var connection = require("./connection.js");
 var tvPlaybackState = require("./tvPlaybackState.js")
+var logger = require("./logging.js")
+
 var fs = require("fs");
 //var tvPlaybackState = require(".tvPlaybackState.js");
 
@@ -24,9 +26,11 @@ var appData = 0;
 var internalModel = [];
 var serverStartTime = new Date().getTime();
 
-exports.setupAppData = function(filename)
+exports.setupAppData = function(filename, logName)
 {	
 	console.log(filename);
+	//setup the logger
+	logger.setupLogging(logName);
 	fs.readFile(filename, "utf8", function (err, data) {
 		if(err){
 		return console.log(err);
@@ -143,12 +147,13 @@ function messageConsumer()
 	var subCallback = function(message)
 	{
 		//console.log("got the message " + message.body);
-		
 		jMessage = JSON.parse(message.body);
+
+		logger.logMessage(jMessage);
+
 		if (jMessage.type == "connection")
 		{
 				connection.newMessage(jMessage);
-				console.log("got a connection update " + JSON.stringify(jMessage));
 
 				return;
 		}	
@@ -164,6 +169,11 @@ function messageConsumer()
 		{
 			//update the internal model for the device
 
+		}
+
+		else if (jMessage.hasOwnProperty('app'))
+		{
+	
 		}
 
 		else if(jMessage.hasOwnProperty('statusUpdate'))

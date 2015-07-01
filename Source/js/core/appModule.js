@@ -37,6 +37,10 @@ var app = (function ()
 
 	}
 
+	var getApplicationType= function(){
+		return applicationType;
+	}
+
 
 	var setAppData = function(appData)
 	{
@@ -392,7 +396,9 @@ var app = (function ()
 		getFeedFromInternalModel: getFeedFromInternalModel,
 		getResumePosition: getResumePosition,
 		getSelectedFeed: getSelectedFeed,
-		getLinkedTICFeeds: getLinkedTICFeeds		
+		getLinkedTICFeeds: getLinkedTICFeeds,
+		getApplicationType: getApplicationType,
+		getSelectedTvFeed: getSelectedTvFeed		
 	}
 }());
 
